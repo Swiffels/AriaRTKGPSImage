@@ -1,0 +1,121 @@
+[0.011s] Invoking command in '/root/ros2_ws/build/ublox_gps': AMENT_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/ublox_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ublox_gps
+[0.063s] -- The C compiler identification is GNU 13.2.0
+[0.118s] -- The CXX compiler identification is GNU 13.2.0
+[0.133s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.239s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.386s] -- Detecting CXX compile features
+[0.386s] -- Detecting CXX compile features - done
+[0.391s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.685s] -- Found asio: /usr/include  
+[0.689s] -- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[0.750s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.770s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[0.968s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.973s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.064s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.082s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.104s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.219s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.267s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.296s] -- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+[1.300s] -- Found ublox_msgs: 2.2.0 (/root/ros2_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+[1.411s] -- Configuring done (1.4s)
+[1.435s] -- Generating done (0.0s)
+[1.442s] -- Build files have been written to: /root/ros2_ws/build/ublox_gps
+[1.451s] Invoked command in '/root/ros2_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/ublox_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ublox_gps
+[1.451s] Invoking command in '/root/ros2_ws/build/ublox_gps': AMENT_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/ublox_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/ublox_gps -- -j12 -l12
+[1.510s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[1.510s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[1.510s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/logger_node_pa.cpp.o[0m
+[1.510s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[1.510s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[1.510s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[1.511s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[1.511s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[1.511s] [ 40%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[1.511s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[1.511s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[1.511s] [ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[1.594s] [ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[2.159s] [ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[7.650s] [ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[13.235s] [ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[16.728s] [ 77%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[16.750s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[18.515s] [ 86%] [32m[1mLinking CXX executable ublox_logger[0m
+[19.243s] [ 86%] Built target ublox_logger_node
+[32.610s] [ 90%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[34.492s] [ 90%] Built target ublox_gps
+[34.513s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[39.241s] [100%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[40.268s] [100%] Built target ublox_gps_node
+[40.279s] Invoked command in '/root/ros2_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/ublox_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/ublox_gps -- -j12 -l12
+[40.280s] Invoking command in '/root/ros2_ws/build/ublox_gps': AMENT_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/ublox_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/ublox_gps
+[40.288s] -- Install configuration: ""
+[40.289s] -- Installing: /root/ros2_ws/install/ublox_gps/lib/libublox_gps.so
+[40.317s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/ublox_gps/lib/libublox_gps.so" to ""
+[40.317s] -- Installing: /root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+[40.318s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+[40.318s] -- Installing: /root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+[40.321s] -- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+[40.321s] -- Installing: /root/ros2_ws/install/ublox_gps/include
+[40.321s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/utils.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/mkgmtime.h
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/node.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/fts_product.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/component_interface.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/rtcm.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+[40.322s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/gps.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/async_worker.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/callback.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/tim_product.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/worker.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/gnss.hpp
+[40.323s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/launch
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/config
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+[40.324s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/package.dsv
+[40.325s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+[40.326s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+[40.326s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+[40.326s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+[40.326s] -- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/package.xml
+[40.328s] Invoked command in '/root/ros2_ws/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/ublox_msgs:/root/ros2_ws/install/ublox_serialization:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/root/ros2_ws/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/ublox_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/ublox_gps
