@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found asio: /usr/include  
+-- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.4 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found ublox_msgs: 2.2.0 (/root/ros2_ws/install/ublox_msgs/share/ublox_msgs/cmake)
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ros2_ws/build/ublox_gps
+[ 13%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/raw_data_pa.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ublox_logger_node.dir/src/logger_node_pa.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable ublox_logger[0m
+[ 86%] Built target ublox_logger_node
+[ 90%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[ 90%] Built target ublox_gps
+[ 95%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[100%] Built target ublox_gps_node
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/ublox_gps/lib/libublox_gps.so
+-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/ublox_gps/lib/libublox_gps.so" to ""
+-- Installing: /root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node
+-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_gps_node" to ""
+-- Installing: /root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_logger
+-- Set non-toolchain portion of runtime path of "/root/ros2_ws/install/ublox_gps/lib/ublox_gps/ublox_logger" to ""
+-- Installing: /root/ros2_ws/install/ublox_gps/include
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/raw_data_pa.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/fix_diagnostic.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/utils.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_topic_diagnostic.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/mkgmtime.h
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/node.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7plus.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/fts_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware6.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/component_interface.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/rtcm.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware7.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/hpg_rov_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/gps.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/adr_udr_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware8.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/async_worker.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/ublox_firmware9.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/callback.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/raw_data_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/tim_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/worker.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/hp_pos_rec_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/hpg_ref_product.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/include/ublox_gps/gnss.hpp
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/launch
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node_zedf9p-launch.py
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/launch/ublox_gps_node-composed-launch.py
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/config
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/config/zed_f9p.yaml
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/package_run_dependencies/ublox_gps
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/parent_prefix_path/ublox_gps
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.sh
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/environment/path.dsv
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.bash
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.sh
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.zsh
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/local_setup.dsv
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/package.dsv
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/packages/ublox_gps
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ament_index/resource_index/rclcpp_components/ublox_gps
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig.cmake
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/cmake/ublox_gpsConfig-version.cmake
+-- Installing: /root/ros2_ws/install/ublox_gps/share/ublox_gps/package.xml
