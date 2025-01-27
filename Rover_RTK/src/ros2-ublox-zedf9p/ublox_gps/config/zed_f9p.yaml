@@ -1,33 +1,44 @@
 ublox_gps_node:
   ros__parameters:
-    debug: 0                    # Range 0-4 (0 means no debug statements will print)
-    device: /dev/tty_Ardsimple
-    frame_id: gps
-    uart1:
-      baudrate: 460800
+    debug: 1
+
+    device: /dev/ttyACM0  # Adjust device port if needed
+    frame_id: rover
+    dynamic_model: automotive  # Adjust for rover movement (other options: pedestrian, sea, airborne)
+    fix_mode: auto
+    dr_limit: 0
+
     gnss:
-      glonass: false
-      beidou: false
       gps: true
-      qzss: false
-      galileo: false
-      imes: false
-    # TMODE3 Config
-    tmode3: 0                   # Survey-In Mode
-    #sv_in:
-      #reset: True               # True: disables and re-enables survey-in (resets)
-                                # False: Disables survey-in only if TMODE3 is
-                                # disabled
-      #min_dur: 300              # Survey-In Minimum Duration [s]
-      #acc_lim: 3.0              # Survey-In Accuracy Limit [m]
- 
-    inf:
-      all: true                   # Whether to display all INF messages in console
- 
+      glonass: true
+      beidou: true
+      galileo: true
+
+    rtcm:
+      in: true   # ✅ Receive RTCM corrections from base
+      out: false # ❌ Do not send corrections
+      usb: true
+      uart1:
+        baudrate: 115200
+        in: 3  # ✅ Enable RTCM input
+        out: 0
+      uart2:
+        baudrate: 115200
+        in: 3  # ✅ Enable RTCM input
+        out: 0
+
     publish:
-      all: false
+      all: true
+      rxm:
+        rtcm: true  # ✅ Receive RTCM corrections
       nav:
-        all: true
-        relposned: true
-        posllh: true
-        posecef: true
+        relposned: true  # ✅ Relative Position (for RTK FIX)
+        posllh: true     # ✅ Latitude, Longitude, Height
+        posecef: true    # ✅ Position in ECEF coordinates
+        velned: true     # ✅ Velocity in North, East, Down
+        pvt: true        # ✅ High-rate GNSS position
+        heading: true    # ✅ Heading for precise positioning
+
+    dgnss_mode: 3  # ✅ RTK FIXED mode (Use 2 for FLOAT)
+
+
