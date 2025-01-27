@@ -4,9 +4,6 @@ FROM osrf/ros:jazzy-desktop-full
 # Set the working directory
 WORKDIR /workspace
 
-# Copy your config file into the appropriate location
-COPY ./zed_f9p.yaml ./src/ros2-ublox-zedf9p/ublox_gps/config/zed_f9p.yaml
-
 # Install necessary dependencies for building ROS2 packages
 # Update and install additional required packages
 RUN apt-get update && apt-get install -y \
@@ -21,12 +18,12 @@ RUN apt-get update && apt-get install -y \
 SHELL ["/bin/bash", "-c"]
 RUN echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 
+# Copy the entire source code into the container
+COPY ./src ./src
+
 # Ensure you install any dependencies using rosdep
 RUN apt-get update && rosdep update
 RUN rosdep install --from-paths src --ignore-src -r -y
-
-# Copy the entire source code into the container
-COPY ./src ./src
 
 # Build the workspace using colcon
 RUN . /opt/ros/jazzy/setup.bash && colcon build --symlink-install
