@@ -2,9 +2,9 @@ ublox_gps_node:
   ros__parameters:
     debug: 1
 
-    device: /dev/ttyACM0  # Adjust device port if needed
+    device: /dev/ttyACM0
     frame_id: rover
-    dynamic_model: automotive  # Adjust for rover movement (other options: pedestrian, sea, airborne)
+    dynamic_model: automotive
     fix_mode: auto
     dr_limit: 0
 
@@ -15,30 +15,30 @@ ublox_gps_node:
       galileo: true
 
     rtcm:
-      in: true   # ✅ Receive RTCM corrections from base
-      out: false # ❌ Do not send corrections
+      in: true
+      out: false
       usb: true
       uart1:
         baudrate: 115200
-        in: 3  # ✅ Enable RTCM input
+        in: 3
         out: 0
       uart2:
         baudrate: 115200
-        in: 3  # ✅ Enable RTCM input
+        in: 3 
         out: 0
 
     publish:
       all: true
       rxm:
-        rtcm: true  # ✅ Receive RTCM corrections
+        rtcm: true 
       nav:
-        relposned: true  # ✅ Relative Position (for RTK FIX)
-        posllh: true     # ✅ Latitude, Longitude, Height
-        posecef: true    # ✅ Position in ECEF coordinates
-        velned: true     # ✅ Velocity in North, East, Down
-        pvt: true        # ✅ High-rate GNSS position
-        heading: true    # ✅ Heading for precise positioning
+        relposned: true 
+        posllh: true    
+        posecef: true   
+        velned: true   
+        pvt: true  
+        heading: true  
 
-    dgnss_mode: 3  # ✅ RTK FIXED mode (Use 2 for FLOAT)
+    dgnss_mode: 3
 
 
