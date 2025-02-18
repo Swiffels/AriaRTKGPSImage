@@ -1,0 +1,54 @@
+ublox_gps_node:
+  ros__parameters:
+    debug: 1
+
+    device: /dev/ttyACM0
+    frame_id: base
+    dynamic_model: stationary
+    fix_mode: auto
+    dr_limit: 0
+
+    gnss:
+      gps: true
+      glonass: true
+      beidou: true
+      galileo: true
+
+    tmode3: 1
+
+    sv_in:
+      reset: true
+      min_dur: 600
+      acc_lim: 2.0
+
+    rtcm:
+      in: false
+      out: true
+      usb: true
+      uart1:
+        baudrate: 115200
+        in: 0
+        out: 3
+      uart2:
+        baudrate: 115200
+        in: 0
+        out: 3
+      messages:
+        1005: true
+        1074: true
+        1084: true
+        1094: true
+        1124: true
+
+    publish:
+      all: true
+      rxm:
+        rtcm: true
+      nav:
+        relposned: true
+        posllh: true
+        posecef: true
+        svin: true
+
+    dgnss_mode: 3
+

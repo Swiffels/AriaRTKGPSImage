@@ -1,6 +1,0 @@
-Invoking command in '/root/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ublox_serialization
-Invoked command in '/root/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/ublox_serialization
-Invoking command in '/root/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/ublox_serialization -- -j12 -l12
-Invoked command in '/root/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/ublox_serialization -- -j12 -l12
-Invoking command in '/root/ros2_ws/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/ublox_serialization
-Invoked command in '/root/ros2_ws/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/ublox_serialization

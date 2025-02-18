@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000579] (-) JobUnselected: {'identifier': 'ublox'}
-[0.001008] (-) JobUnselected: {'identifier': 'ublox_gps'}
-[0.001041] (-) JobUnselected: {'identifier': 'ublox_msgs'}
-[0.001063] (-) JobUnselected: {'identifier': 'ublox_serialization'}
-[0.001082] (-) EventReactorShutdown: {}

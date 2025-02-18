@@ -1,0 +1,46 @@
+ublox_gps_node:
+  ros__parameters:
+    debug: 1
+
+    device: /dev/ttyACM0
+    frame_id: rover
+    dynamic_model: automotive
+    fix_mode: auto
+    dr_limit: 0
+
+    tmode3: 0
+
+    gnss:
+      gps: true
+      glonass: true
+      beidou: true
+      galileo: true
+
+    rtcm:
+      in: true
+      out: false
+      usb: true
+      uart1:
+        baudrate: 115200
+        in: 3
+        out: 0
+      uart2:
+        baudrate: 115200
+        in: 3 
+        out: 0
+
+    publish:
+      all: true
+      rxm:
+        rtcm: true 
+      nav:
+        relposned: true 
+        posllh: true    
+        posecef: true   
+        velned: true   
+        pvt: true  
+        heading: true  
+
+    dgnss_mode: 3
+
+

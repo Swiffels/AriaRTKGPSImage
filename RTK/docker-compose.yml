@@ -1,0 +1,14 @@
+services:
+  ros2-RTK-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rtk-image
+    container_name: ros2-RTK-container
+    privileged: true
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+      - "/dev/ttyACM1:/dev/ttyACM1"
+    stdin_open: true
+    tty: true
+

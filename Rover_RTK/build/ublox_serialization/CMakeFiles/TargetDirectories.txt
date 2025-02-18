@@ -1,9 +1,0 @@
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/uninstall.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/ublox_serialization_uninstall.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/test.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/edit_cache.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/rebuild_cache.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/list_install_components.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/install.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/install/local.dir
-/root/ros2_ws/build/ublox_serialization/CMakeFiles/install/strip.dir
