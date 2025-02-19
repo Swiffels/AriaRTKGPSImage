@@ -16,3 +16,5 @@ colcon build --symlink-install
 
 ros2 launch ublox_gps RTK_GPS_BASE-launch.py
 ros2 launch ublox_gps RTK_GPS_ROVER-launch.py
+
+#This is if not using the docker and should hopefully work
